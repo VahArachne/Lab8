@@ -58,10 +58,10 @@ public class CustomList extends ArrayAdapter<City> {
         //return false;
     }
 
-//    public void deleteCity(City city) {
-//        //cities.remove(city);
-//    }
-//
+    public void deleteCity(City city) {
+        cities.remove(city);
+    }
+
 //    public int countCities() {
 //        //return cities.size();
 //        return 0;
